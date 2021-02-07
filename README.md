@@ -8,7 +8,12 @@ This is community made Arduino Core for Bouffalo Labs RISC-V MCUs. The target is
 
 # How To Install
 In Arduino IDE, go to `File > Preferences`, and add to  `Additional Boards Manager URLs` following:
-`https://nutcracker.pine64.org/arduino/package_bouffalo_index.json`. Then open `Tools > Board > Boards Manager`, search for `Arduino for Bouffalo Labs RISC-V MCUs` and install it. (Also, then don't forget to pick your BLXXX based board)
+
+```
+https://raw.githubusercontent.com/pfeerick/ArduinoCore-bouffalo-packages/master/package_bouffalo_index.json
+```
+
+Then open `Tools > Board > Boards Manager`, search for `Arduino for Bouffalo Labs RISC-V MCUs` and install it. (Don't forget to pick your BLXXX based board afterwards)
 
 # Disclaimer
 Some parts of this core are based or inspired by work of Arduino, Espressif and Bouffalo Lab teams and their communities.
